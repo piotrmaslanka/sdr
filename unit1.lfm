@@ -1,0 +1,39 @@
+object Form1: TForm1
+  Left = 340
+  Height = 394
+  Top = 152
+  Width = 572
+  BorderStyle = bsSingle
+  Caption = 'SDR'
+  ClientHeight = 394
+  ClientWidth = 572
+  LCLVersion = '0.9.30'
+  object Licz: TButton
+    Left = 3
+    Height = 25
+    Top = 3
+    Width = 565
+    Caption = 'Licz'
+    OnClick = LiczClick
+    TabOrder = 0
+  end
+  object StringGrid1: TStringGrid
+    Left = 8
+    Height = 196
+    Top = 192
+    Width = 560
+    FixedCols = 0
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 152
+    Top = 32
+    Width = 560
+    TabOrder = 2
+  end
+  object Dialog: TOpenDialog
+    left = 8
+    top = 32
+  end
+end
